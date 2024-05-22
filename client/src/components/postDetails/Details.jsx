@@ -173,7 +173,6 @@ const DetailView = () => {
       setLikes(response.data.likes);
       setLiked(!liked);
       setLikedBy(response.data.likedBy || []);
-     
     } catch (error) {
       console.error("Error toggling like:", error);
       toast.error("Error toggling like");

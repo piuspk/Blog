@@ -50,6 +50,7 @@ const Loader = styled(CircularProgress)`
 
 const Post = ({ post }) => {
     const [imageLoading, setImageLoading] = useState(true);
+    
 
     const url = post.picture ? post.picture : 'https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg';
     
